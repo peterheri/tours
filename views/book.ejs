@@ -1,0 +1,66 @@
+<html lang="eng">
+  <%- include('./partials/head.ejs') %>
+  <body>
+    <%- include('./partials/nav.ejs') %>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="booktrip">
+        <form action="/book" method="post">
+          <h3>Book your Trip</h3>
+          <label for="fullnames">Full names: </label>
+          <input type="text" name="fullnames" class="form-control" required />
+
+          <label for="gender">Gender: </label>
+          <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select></br></br>
+
+          <label for="tripname">Trip name: </label>
+          <input type="text" name="tripname" class="form-control" required /></br>
+
+          <label for="yearofbooking">Year of booking: </label>
+          <select name="yearofbooking" id="yearofbooking">
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+          </select></br></br>
+          
+          <label for="monthofbooking">Month of booking: </label>
+          <select name="monthofbooking" id="monthofbooking">
+            <option value="Janaury">Janaury</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option selected value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+          </select></br></br>
+
+          <label for="modeofpayment">modeofpayment</label>
+          <select name="modeofpayment" id="modeofpayment">
+            <option value="male">Cash</option>
+            <option value="creditcard">Credit Card</option>
+            <option value="paypal">Paypal</option>
+          </select></br></br>
+          
+          <label for="paid">Paid: </label>
+          <select name="paid" id="paid">
+            <option value="true">true</option>
+            <option value="false">false</option>
+          </select></br></br>
+          <input class="btn btn-primary" type="submit" value="Register" />
+        </form>
+      </div>
+    </div>
+
+    <%- include('./partials/footer.ejs') %>
+  </body>
+</html>

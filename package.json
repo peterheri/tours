@@ -1,0 +1,24 @@
+{
+  "name": "tours",
+  "version": "1.0.0",
+  "description": "creating a tour app using postgress and node ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter heri",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.0.2",
+    "express": "^4.17.3",
+    "hstore": "^0.0.1",
+    "install": "^0.13.0",
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0",
+    "pg": "^6.4.2",
+    "pool": "^0.4.1",
+    "postgres": "^3.0.6"
+  }
+}

@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
+body {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+  font-family: "Architects Daughter", cursive;
+  background-color: darkolivegreen;
+}
+
+p,
+h1,
+h2,
+h3,
+a,
+ul {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid;
+  text-transform: uppercase;
+  color: aliceblue;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: aliceblue;
+}
+
+nav li {
+  list-style-type: none;
+  margin-left: 20px;
+  color: aliceblue;
+}
+
+nav h1 {
+  font-size: 2.5em;
+  color: aliceblue;
+}
+
+nav p,
+nav a {
+  color: black;
+  font-weight: 300;
+  color: aliceblue;
+}
+.dropbtn {
+  background-color: aliceblue;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.jumbotron {
+  position: relative;
+  display: flex;
+  max-width: 500px;
+  background-color: whitesmoke;
+  padding: 20px;
+}
+footer {
+  color: darkgrey;
+  text-align: center;
+  margin: 80px auto 20px;
+}
+
+h2 {
+  margin-bottom: 40px;
+  color: white;
+}
+
+h3 {
+  text-transform: capitalize;
+  margin-bottom: 8px;
+  color: black;
+}
+
+.content {
+  margin-left: 15px;
+}
+
+.addcustomer form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.booktrip form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.addcustomer input .addcustomer textarea {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+  font-family: "Architects Daughter", cursive;
+}
+
+.addcustomer label {
+  display: block;
+  margin-top: 24px;
+  font-size: 20px;
+}
+textarea {
+  height: 120px;
+}
+
+.addcustomer button {
+  margin-top: 20px;
+  background: burlywood;
+  color: aliceblue;
+  padding: 6px;
+  border: 0;
+  font-size: 1.2em;
+  cursor: pointer;
+}
